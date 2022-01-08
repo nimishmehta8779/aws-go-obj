@@ -3,7 +3,7 @@ package vpc
 import (
 	"fmt"
 
-	util "github.com/nimishmehta8779/aws-go-obj/utils"
+	util "github.com/nimishmehta8779/aws-go-obj/util"
 
 	"github.com/pulumi/pulumi-aws/sdk/v4/go/aws/ec2"
 	"github.com/pulumi/pulumi/sdk/v3/go/pulumi"
