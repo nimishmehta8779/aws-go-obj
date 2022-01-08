@@ -1,0 +1,40 @@
+{
+    "version": 3,
+    "deployment": {
+        "manifest": {
+            "time": "2022-01-07T20:00:21.8157258+05:30",
+            "magic": "34eac5a46ba0685dc481b55fbfd5127dc254ac41a1dabeb9c93da788146e79af",
+            "version": "v3.21.0"
+        },
+        "secrets_providers": {
+            "type": "service",
+            "state": {
+                "url": "https://api.pulumi.com",
+                "owner": "nimishmehta8779",
+                "project": "aws-go-obj",
+                "stack": "aws-go"
+            }
+        },
+        "resources": [
+            {
+                "urn": "urn:pulumi:aws-go::aws-go-obj::pulumi:pulumi:Stack::aws-go-obj-aws-go",
+                "custom": false,
+                "type": "pulumi:pulumi:Stack"
+            },
+            {
+                "urn": "urn:pulumi:aws-go::aws-go-obj::pulumi:providers:aws::default",
+                "custom": true,
+                "id": "36ee5a8e-611c-4898-bd6a-1d60e24ae6a7",
+                "type": "pulumi:providers:aws",
+                "inputs": {
+                    "region": "us-east-1",
+                    "version": "4.30.0"
+                },
+                "outputs": {
+                    "region": "us-east-1",
+                    "version": "4.30.0"
+                }
+            }
+        ]
+    }
+}
